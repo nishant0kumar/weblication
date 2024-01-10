@@ -116,3 +116,25 @@ input{
     height: 29rem;
     border-radius: 10%;
 }
+
+/* main */
+
+main{
+    height: 100rem;
+}
+
+
+/* footer */
+
+.footer_div1 {
+    background-color: rgb(255, 116, 116);
+    height: 30rem;
+    display: flex;   
+    justify-content: space-evenly;
+}
+
+.footer-div-div{
+    background-color: black;
+    height: 20rem;
+    width: 10rem;
+}
