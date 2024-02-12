@@ -141,13 +141,6 @@ main{
     border-radius: 24px;
 }
 
-.fram1{
-    justify-content: flex-start;
-}
-
-.fram2{
-    justify-content: flex-end;
-}
 
 .image{
     background-image: url("https://www.sugarfina.com/media/wysiwyg/hollywood/Hollywood_HP_Secondary-Desktop-Full_copy_2x.jpg");
@@ -166,9 +159,13 @@ main{
     justify-content: center;
     align-items: center;
     align-content: center;
-    margin: 1rem;
+    margin: 3rem;
 }
 
+/* hover */
+.image:hover{
+    background-clip: padding-box;
+}
 
 /* footer */
 
@@ -186,4 +183,52 @@ main{
     height: 20rem;
     width: 20rem;
     border-radius: 24px;
+}
+
+.footer_list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30%;
+    gap: 1rem;
+}
+
+@media screen and (max-width: 750px) {
+    .logo{
+        display: none;
+    }
+
+    #search{
+        display: none;
+    }
+
+    .contacts{
+        display: none;
+    }
+
+    .pro{
+        flex-direction: column;
+        align-items: center;
+    }
+    .div1,.div2,.div3{
+        width: 20rem;
+    }
+
+    .div-image1{
+        width: 19rem;
+    }
+
+    .para{
+        font-size: 1rem;
+    }
+
+    .none{
+        display: none;
+    }
+
+    .back{
+        background-color: black;
+        height: 40rem;
+        background-image: none;
+    }
 }
